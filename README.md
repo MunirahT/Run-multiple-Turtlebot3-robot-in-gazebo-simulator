@@ -120,13 +120,17 @@ Paste the code below.
 
 **6.Now update the modified content.**
 ```
+
 $ cd ~/catkin_ws && catkin_make
 $ rospack profile
+
 
 ```
 **7. launch the simulation.**
 ```
+
  roslaunch multiple_turtlebots_sim simulation.launch
+ 
 
 ```
 **8.Move the robot.**
